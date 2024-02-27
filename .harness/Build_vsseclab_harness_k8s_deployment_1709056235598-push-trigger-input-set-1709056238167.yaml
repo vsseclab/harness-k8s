@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_vsseclab_harness_k8s_deployment_1709056235598-push-trigger-input-set
+  identifier: Build_vsseclab_harness_k8s_deployment_1709056235598pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: vssk8s
+  pipeline:
+    identifier: Build_vsseclab_harness_k8s_deployment_1709056235598
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>

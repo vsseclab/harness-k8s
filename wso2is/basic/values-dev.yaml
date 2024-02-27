@@ -1,0 +1,4 @@
+# Using it just to override the mysql dependency
+wso2:
+  mysql:
+    enabled: false
